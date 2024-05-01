@@ -16,6 +16,7 @@ public abstract class Account  {
 	private Long accountNumber;
 
 	private int pin;
+	
 	private double balance;
 
 	protected Account(AccountHolder accountHolder, Long accountNumber, int pin, double startingDeposit) {
